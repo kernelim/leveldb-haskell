@@ -98,7 +98,9 @@ library
                     cbits/leveldb/db/db_impl.cc
                     cbits/leveldb/db/db_iter.cc
                     cbits/leveldb/db/dbformat.cc
+                    cbits/leveldb/db/dumpfile.cc
                     cbits/leveldb/db/filename.cc
+                    cbits/leveldb/db/leveldb_main.cc
                     cbits/leveldb/db/log_reader.cc
                     cbits/leveldb/db/log_writer.cc
                     cbits/leveldb/db/memtable.cc
@@ -111,6 +113,7 @@ library
                     cbits/leveldb/port/port_posix.cc
                     cbits/leveldb/table/block.cc
                     cbits/leveldb/table/block_builder.cc
+                    cbits/leveldb/table/filter_block.cc
                     cbits/leveldb/table/format.cc
                     cbits/leveldb/table/iterator.cc
                     cbits/leveldb/table/merger.cc
@@ -118,12 +121,14 @@ library
                     cbits/leveldb/table/table_builder.cc
                     cbits/leveldb/table/two_level_iterator.cc
                     cbits/leveldb/util/arena.cc
+                    cbits/leveldb/util/bloom.cc
                     cbits/leveldb/util/cache.cc
                     cbits/leveldb/util/coding.cc
                     cbits/leveldb/util/comparator.cc
                     cbits/leveldb/util/crc32c.cc
                     cbits/leveldb/util/env.cc
                     cbits/leveldb/util/env_posix.cc
+                    cbits/leveldb/util/filter_policy.cc
                     cbits/leveldb/util/hash.cc
                     cbits/leveldb/util/histogram.cc
                     cbits/leveldb/util/logging.cc
