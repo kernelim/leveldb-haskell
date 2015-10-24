@@ -7,3 +7,8 @@ tags
 *.hi
 .cabal-sandbox
 cabal.sandbox.config
+.stack-work/
+autom4te.cache/
+config.log
+config.status
+leveldb-haskell.buildinfo
