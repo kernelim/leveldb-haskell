@@ -17,4 +17,8 @@ Env* NewMemEnv(Env* base_env);
 
 }  // namespace leveldb
 
+#ifndef __STDC_LIMIT_MACROS
+#define __STDC_LIMIT_MACROS
+#endif
+
 #endif  // STORAGE_LEVELDB_HELPERS_MEMENV_MEMENV_H_
