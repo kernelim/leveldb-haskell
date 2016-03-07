@@ -10,9 +10,7 @@ dnl ****************
 dnl Check for snappy
 dnl ****************
 
-AC_CHECK_HEADERS([snappy.h],
-    [snappy=yes],
-    [snappy=no])
+snappy=yes
 
 if test "x$snappy" = "xyes"
 then
